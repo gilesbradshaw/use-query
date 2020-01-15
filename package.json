@@ -1,0 +1,30 @@
+{
+  "name": "ui-use-query",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "umd": "build/index.umd.js",
+  "jsnext:main": "build/index.es.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.13",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "typescript": "^3.7.3"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3"
+  },
+  "files": [
+    "build"
+  ]
+}
